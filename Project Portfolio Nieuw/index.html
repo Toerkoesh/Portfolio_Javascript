@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Kaan Dogan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <nav class="navbar">
+        <a href="index.html">
+            <img class="logo" src="images/kdogan.png" alt="Kaan Dogan">
+        </a>
+
+        <button class="menu-knop" onclick="menuOpenen()">☰</button>
+
+        <div class="nav-links" id="menuLinks">
+            <a class="active" href="index.html">Home</a>
+            <a href="vaardigheden.html">Vaardigheden</a>
+            <a href="projecten.html">Projecten</a>
+            <a href="contact.html">Contact</a>
+
+            <button id="darkModeButton">Dark mode</button>
+        </div>
+    </nav>
+
+    <main>
+        <p id="begroeting"></p>
+
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Hoi, ik ben Kaan Dogan</h1>
+                <h2>Mijn persoonlijke portfolio</h2>
+                <p>Welkom op mijn portfolio. Hier vertel ik meer over mezelf, mijn vaardigheden en mijn projecten.</p>
+                <p>Ik vind het leuk om met computers, techniek en creatieve projecten bezig te zijn.</p>
+                <a class="button" href="vaardigheden.html">Mijn vaardigheden</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/kdogan.png" alt="Foto van Kaan Dogan">
+            </div>
+        </section>
+
+        <section class="cards">
+            <article class="card">
+                <img src="images/foto.png" alt="Foto aan zee">
+                <h3>Over mij</h3>
+                <p>Een korte kennismaking met mij en mijn interesses.</p>
+            </article>
+
+            <article class="card">
+                <img src="images/game.png" alt="Game project">
+                <h3>Projecten</h3>
+                <p>Bekijk een aantal projecten waar ik mee bezig ben geweest.</p>
+            </article>
+
+            <article class="card">
+                <img src="images/mini.png" alt="Persoonlijke foto">
+                <h3>Contact</h3>
+                <p>Via het contactformulier kun je een bericht sturen.</p>
+            </article>
+        </section>
+
+    </main>
+
+    <div class="countdown">
+        <h2>Countdown tot Nieuwjaar!</h2>
+        <p id="timer"></p>
+    </div>
+
+    <footer>
+        <a href="contact.html">Contact</a>
+        <a href="index.html">Over mij</a>
+        <p>Copyright © 2026 Kaan Dogan</p>
+    </footer>
+
+    <div id="cookie-melding">
+        <div class="cookie-header">
+            <h2>Cookies op deze website</h2>
+            <span class="cookie-label">Privacy</span>
+        </div>
+
+        <p>
+            Welkom op mijn portfolio! Ik gebruik cookies om de website
+            goed te laten werken. Je kunt zelf kiezen of je cookies accepteert.
+        </p>
+
+        <div class="cookie-buttons">
+            <button id="cookieButton">Accepteren</button>
+            <button id="cookieWeigeren">Weigeren</button>
+        </div>
+
+        <small>Jouw keuze wordt opgeslagen.</small>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
